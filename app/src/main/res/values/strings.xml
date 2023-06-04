@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Caltic</string>
+    <string-array name="Circle_Parameters">
+        <item>Make your choice</item>
+        <item>Radius to Area</item>
+        <item>Radius to Circumference</item>
+        <item>Area to Radius</item>
+        <item>Area to Circumference</item>
+        <item>Circumference to Radius</item>
+        <item>Circumference to Area</item>
+    </string-array>
+
+    <string-array name="Square_Parameters">
+        <item>Make your choice</item>
+        <item>Side to Area</item>
+        <item>Side to Perimeter</item>
+        <item>Area to Side</item>
+        <item>Area to Perimeter</item>
+        <item>Perimeter to side</item>
+        <item>Perimeter to Area</item>
+    </string-array>
+
+    <string-array name="Rombus_Parameter">
+        <item>Make your choice</item>
+        <item>Diagonal to Area</item>
+        <item>Side to Perimeter</item>
+        <item>Perimeter to Side</item>
+        <item>Area to Diagonal1</item>
+        <item>Area to Diagonal2</item>
+    </string-array>
+
+    <string-array name="Rectangle_Parameter">
+        <item>Make your Choice</item>
+        <item>Area</item>
+        <item>Perimeter</item>
+        <item>Area to Length</item>
+        <item>Area to Breadth</item>
+        <item>Perimeter to Length</item>
+        <item>Perimeter to Breadth</item>
+    </string-array>
+
+    <string-array name="Triangle_Parameter">
+        <item>Make your choice</item>
+        <item>Area</item>
+        <item>Area to Height</item>
+        <item>Area to Base</item>
+    </string-array>
+
+    <string-array name="Parabola_Parameter">
+        <item>Make your Choice</item>
+        <item>Finding Focus Distance</item>
+        <item>Finding Y</item>
+        <item>Finding X</item>
+    </string-array>
+
+    <string-array name="Ellipse_Parameter">
+        <item>Make your choice</item>
+        <item>Area</item>
+        <item>Circumference</item>
+        <item>Major Axis</item>
+        <item>Minor Axis</item>
+    </string-array>
+
+    <string-array name="Simple_Interest">
+        <item>Make your choice</item>
+        <item>Simple Interest</item>
+        <item>Rate</item>
+        <item>Time</item>
+        <item>Principle</item>
+    </string-array>
+
+    <string-array name="Coumpound_Interest">
+        <item>Make your Choice</item>
+        <item>Compound Interest</item>
+    </string-array>
+    <string-array name="Cone">
+        <item>Make your choice</item>
+        <item>Volume</item>
+        <item>Area</item>
+        <item>Slant Height</item>
+        <item>Volume to Height</item>
+        <item>Volume to Radius</item>
+        <item>Side Area</item>
+        <item>Slant_Height to Radius</item>
+        <item>Slant_Height to height</item>
+    </string-array>
+</resources>

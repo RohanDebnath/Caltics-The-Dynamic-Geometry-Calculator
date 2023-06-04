@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page"
+    tools:context=".Second_page">
+
+    <ImageButton
+        android:id="@+id/ban_formula"
+        android:layout_width="129dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="352dp"
+        app:layout_constraintEnd_toEndOf="@+id/conic_formula"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/conic_formula"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bankformula" />
+
+    <ImageButton
+        android:id="@+id/simple_geo"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/simplegeometry" />
+
+    <ImageButton
+        android:id="@+id/conic_formula"
+        android:layout_width="131dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="432dp"
+        app:layout_constraintEnd_toEndOf="@+id/simple_geo"
+        app:layout_constraintStart_toStartOf="@+id/simple_geo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/conicsection" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

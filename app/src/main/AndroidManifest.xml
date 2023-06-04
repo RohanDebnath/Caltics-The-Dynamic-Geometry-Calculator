@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Caltics"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CalticCalculator">
+        <activity
+            android:name=".Triangle"
+            android:parentActivityName=".Simple_geometry"
+            android:exported="true" />
+        <activity
+            android:name=".Rectangle"
+            android:parentActivityName=".Simple_geometry"
+            android:exported="true" />
+        <activity
+            android:name=".Rombus"
+            android:parentActivityName=".Simple_geometry"
+            android:exported="true" />
+        <activity
+            android:name=".Square"
+            android:parentActivityName=".Simple_geometry"
+            android:exported="true" />
+        <activity
+            android:name=".circle1"
+            android:parentActivityName=".Simple_geometry"
+            android:exported="true" />
+        <activity
+            android:name=".Simple_geometry"
+            android:parentActivityName=".Second_page"
+            android:exported="true" />
+        <activity
+            android:name=".cone"
+            android:parentActivityName=".Conic_section"
+            android:exported="true" />
+        <activity
+            android:name=".Ellipse"
+            android:parentActivityName=".Conic_section"
+            android:exported="true" />
+        <activity
+            android:name=".Parabola"
+            android:parentActivityName=".Conic_section"
+            android:exported="true" />
+        <activity
+            android:name=".Conic_section"
+            android:parentActivityName=".Second_page"
+            android:exported="true" />
+        <activity
+            android:name=".Compound_Interest"
+            android:parentActivityName=".Bank_Formula"
+            android:exported="true" />
+        <activity
+            android:name=".Simple_Interest"
+            android:parentActivityName=".Bank_Formula"
+            android:exported="true" />
+        <activity
+            android:name=".Bank_Formula"
+            android:parentActivityName=".Second_page"
+            android:exported="true" />
+        <activity
+            android:name=".Second_page"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".makers"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
